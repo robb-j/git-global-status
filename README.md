@@ -2,6 +2,8 @@
 
 Quickly find out which repos you forgot to commit to.
 
+## Cli usage
+
 ```bash
 # Install globally
 npm i -g git-global-status
@@ -11,6 +13,24 @@ git-global-status
 
 # Run in a specific directory
 git-global-status --path /User/rob/Sites
+```
+
+## Api usage
+
+```js
+const { findUnstagedRepos } = require('./repoFinder')
+
+;(async () => {
+  //
+  // Fetch repos which have unstaged changes
+  // 
+  const repos = await findUnstagedRepos('/your/custom/path')
+  
+  // 
+  // Repos is an array of { path: string, remote: string | null }
+  // 
+  console.log(repos)
+})()
 ```
 
 ## Future work
