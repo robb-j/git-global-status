@@ -13,6 +13,13 @@ git-global-status
 git-global-status --path /User/rob/Sites
 ```
 
+## Future work
+
+- Add an option to fetch repos first
+  - `.option('-f --fetch', 'Specify whether to fetch repos', false)`
+  - `git fetch && git status -sb`
+- Add more project dependant ignores (e.g. `ruby`)
+
 ---
 
 > This project was set up by [puggle](https://npm.im/puggle)
