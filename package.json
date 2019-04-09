@@ -1,7 +1,7 @@
 {
   "name": "git-global-status",
   "private": false,
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A cli to quickly find out which repos you forgot to commit to",
   "main": "src/index.js",
   "repository": "robb-j/git-global-status",
