@@ -18,6 +18,7 @@ git-global-status --path /User/rob/Sites
 - Add an option to fetch repos first
   - `.option('-f --fetch', 'Specify whether to fetch repos', false)`
   - `git fetch && git status -sb`
+    - `## master...origin/master [ahead 1, behind 1]`
 - Add more project dependant ignores (e.g. `ruby`)
 
 ---
